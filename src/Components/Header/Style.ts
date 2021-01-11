@@ -30,8 +30,9 @@ export const Middle = styled.div`
   font-family: Apple SD Gothic Neo;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 2.6vw;
   line-height: 60px;
+  color: #000000;
 
   span {
     margin-top: 3vw;
@@ -46,7 +47,7 @@ export const Right = styled.div`
 `;
 
 export const RightImage = styled.div`
-  margin: 2vw 12% 0 auto;
+  margin: 0 12% 1vh auto;
 
   cursor: pointer;
 `;
