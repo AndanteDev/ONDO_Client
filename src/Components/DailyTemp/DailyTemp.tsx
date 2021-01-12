@@ -3,8 +3,6 @@ import ProgressBar from "src/Components/ProgressBar/ProgressBar";
 import * as S from "./Style";
 
 const DailyTemp: React.FC = () => {
-  const [completed] = useState(36.5);
-
   return (
     <S.Positioner>
       <S.Wrapper>
