@@ -36,10 +36,14 @@ const BottomSlide: React.FC = () => {
   return (
     <S.Positioner
       height={height}
-      onMouseEnter={() => (setHeight(25), setIshover(true))}
-      onMouseLeave={() => (
-        setHeight(10), setIshover(false), setIswrite(false), setEmotion("")
-      )}
+      onMouseEnter={() => {
+        setHeight(25);
+        setIshover(true);
+      }}
+      onMouseLeave={() => {
+        setIshover(false);
+        setIswrite(false);
+      }}
     >
       <S.Wrapper height={height}>
         <S.Date>
