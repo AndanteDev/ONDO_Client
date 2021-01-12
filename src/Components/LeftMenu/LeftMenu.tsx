@@ -35,8 +35,8 @@ const menuList = [
 
 const LeftMenu: React.FC = () => {
   const mappingMenuList = menuList.map((data, idx) => (
-    <Link href="/[id]" as={`/${data.router}`}>
-      <S.Button key={idx} style={{ textDecoration: "none" }}>
+    <Link href="/[id]" key={idx} as={`/${data.router}`}>
+      <S.Button style={{ textDecoration: "none" }}>
         <S.Icon>{data.image}</S.Icon>
         <S.Title>{data.title}</S.Title>
       </S.Button>
