@@ -9,6 +9,7 @@ export const Positioner = styled.div`
   align-items: center;
 
   background-color: #ffffff;
+  
 `;
 
 export const Photo = styled.div`
