@@ -9,7 +9,7 @@ const DailyTemp: React.FC = () => {
     <S.Positioner>
       <S.Wrapper>
         <S.Title>오늘의 감정온도</S.Title>
-        <ProgressBar completed={completed}>70%</ProgressBar>
+        <ProgressBar />
       </S.Wrapper>
     </S.Positioner>
   );

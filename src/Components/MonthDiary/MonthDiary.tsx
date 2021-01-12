@@ -1,7 +1,14 @@
 import React from "react";
 import * as S from "./Style";
 
-const MonthDiary: React.FC = ({ data }) => {
+interface MonthDiaryProps {
+  data: {
+    year: string;
+    month: string;
+  };
+}
+
+const MonthDiary: React.FC<MonthDiaryProps> = ({ data }) => {
   return (
     <S.Positioner
       onClick={() => alert(`${data.year}년 ${data.month}월 일기장`)}
