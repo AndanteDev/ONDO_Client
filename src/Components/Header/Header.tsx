@@ -28,7 +28,7 @@ const Header: React.FC = () => {
   return (
     <S.Positioner>
       <S.Left>
-        <Link href="/home">
+        <Link href="/">
           <S.Logo>
             <Image src="/ONDO.svg" alt="logo" width={60} height={90} />
           </S.Logo>
