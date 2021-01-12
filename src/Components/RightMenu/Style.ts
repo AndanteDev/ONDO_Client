@@ -39,7 +39,7 @@ export const Ondo_Title = styled.div`
   font-family: Apple SD Gothic Neo;
   font-style: normal;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 1.2vw;
   line-height: 22px;
   /* identical to box height */
 
@@ -52,7 +52,7 @@ export const Ondo_Temp = styled.div`
   font-family: Apple SD Gothic Neo;
   font-style: normal;
   font-weight: 100;
-  font-size: 40px;
+  font-size: 2.5vw;
   line-height: 48px;
   /* identical to box height */
 

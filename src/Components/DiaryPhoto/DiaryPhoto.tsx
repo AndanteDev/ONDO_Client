@@ -10,49 +10,22 @@ interface DiaryPhotoProps {
 const returnEmoticon = (emotion: string) => {
   switch (emotion) {
     case "슬퍼요..":
-      return (
-        <Image
-          src="/ReversedEmtions/Sad_Reverse.svg"
-          alt="sad"
-          width={55}
-          height={55}
-        />
-      );
+      return <Image src="/Emotions/Sad.svg" alt="sad" width={55} height={55} />;
     case "그럭저럭이에요":
       return (
-        <Image
-          src="/ReversedEmtions/Soso_Reverse.svg"
-          alt="soso"
-          width={55}
-          height={55}
-        />
+        <Image src="/Emotions/Soso.svg" alt="soso" width={55} height={55} />
       );
     case "행복해요!":
       return (
-        <Image
-          src="/ReversedEmtions/Smile_Reverse.svg"
-          alt="smile"
-          width={55}
-          height={55}
-        />
+        <Image src="/Emotions/Smile.svg" alt="smile" width={55} height={55} />
       );
     case "화나요!":
       return (
-        <Image
-          src="/ReversedEmtions/Angry_Reverse.svg"
-          alt="angry"
-          width={55}
-          height={55}
-        />
+        <Image src="/Emotions/Angry.svg" alt="angry" width={55} height={55} />
       );
     case "피곤해요":
       return (
-        <Image
-          src="/ReversedEmtions/Tired_Reverse.svg"
-          alt="tired"
-          width={55}
-          height={55}
-        />
+        <Image src="/Emotions/Tired.svg" alt="tired" width={55} height={55} />
       );
   }
 };
