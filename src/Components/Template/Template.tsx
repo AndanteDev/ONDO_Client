@@ -39,8 +39,6 @@ const Template: React.FC = ({ children }) => {
     switch (id) {
       case "mystory":
         return setSlide(true);
-      case "ourstory":
-        return setSlide(true);
       default:
         return setSlide(false);
     }

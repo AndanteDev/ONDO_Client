@@ -6,6 +6,7 @@ import HomeContainer from "src/Containers/HomeContainer/HomeContainer";
 import MyStoryContainer from "src/Containers/MyStoryContainer/MyStoryContainer";
 
 import styled from "styled-components";
+import TempContainer from "src/Containers/TempContainer/TempContainer";
 
 export const Positioner = styled.div`
   width: 100%;
@@ -22,6 +23,8 @@ const renderContentByQueryId = (id) => {
       return <HomeContainer />;
     case "mystory":
       return <MyStoryContainer />;
+    default:
+      return <TempContainer />;
   }
 };
 

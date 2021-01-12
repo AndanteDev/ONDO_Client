@@ -2,6 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 import styled from "styled-components";
+import Link from "next/link";
 
 export const Positioner = styled.div`
   width: 100%;
@@ -77,7 +78,9 @@ const Index: React.FC = () => {
         <Emotion>
           <Image src="/Emotions.svg" alt="emotions" width={374} height={65} />
         </Emotion>
-        <Sign>로그인 / 회원가입 {">>"}</Sign>
+        <Link href="/home">
+          <Sign>로그인 / 회원가입 {">>"}</Sign>
+        </Link>
       </Wrapper>
     </Positioner>
   );
