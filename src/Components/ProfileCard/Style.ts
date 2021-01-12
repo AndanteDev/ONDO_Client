@@ -24,7 +24,7 @@ export const ProfilePicture = styled.div`
   margin-top: 5vh;
 `;
 
-export const Wrapper = styled.div`
+export const UserWrapper = styled.div`
   width: 70%;
   height: 55%;
   display: flex;
