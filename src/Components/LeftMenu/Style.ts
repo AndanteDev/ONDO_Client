@@ -30,6 +30,7 @@ export const Button = styled.div`
     background-color: #000000;
     border-radius: 10px;
     transition: all 0.5s;
+    fill: #ffffff;
 
     font-weight: bold;
     overflow: hidden;
@@ -38,8 +39,7 @@ export const Button = styled.div`
 
 export const Title = styled.div`
   margin-left: 0.5vw;
-  margin-top: 0.1vw;
-
+  margin-bottom: 0.3vh;
   font-size: 1vw;
   font-weight: thin;
 `;
